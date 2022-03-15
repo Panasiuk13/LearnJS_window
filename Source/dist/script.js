@@ -14012,13 +14012,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider */ "./src/js/slider.js");
 /* harmony import */ var _modules_modules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/modules */ "./src/modules/modules.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/tabs */ "./src/modules/tabs.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/forms */ "./src/modules/forms.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_forms__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 window.addEventListener('DOMContentLoaded', () => {
+  "use strict";
+
   Object(_modules_modules__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider', '.glazing_block', '.glazing_content', 'active');
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click');
+  _modules_forms__WEBPACK_IMPORTED_MODULE_3___default()();
 });
 
 /***/ }),
@@ -14108,6 +14114,17 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     }]
   });
 });
+
+/***/ }),
+
+/***/ "./src/modules/forms.js":
+/*!******************************!*\
+  !*** ./src/modules/forms.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\src\\modules\\forms.js: Unexpected token (48:15)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m                })\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m                \u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m statusMessage\u001b[33m.\u001b[39mtextContent \u001b[33m=\u001b[39m massage\u001b[33m.\u001b[39mfailure)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m                \u001b[33m.\u001b[39m\u001b[36mfinally\u001b[39m(() \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m                    clearInputs()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 50 |\u001b[39m                    setTimeout(()\u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 51 |\u001b[39m                        statusMessage\u001b[33m.\u001b[39mremove()\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:476:17)\n    at Parser.raiseWithData (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:469:17)\n    at Parser.raise (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:430:17)\n    at Parser.unexpected (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:3789:16)\n    at Parser.parseExprAtom (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:12622:22)\n    at Parser.parseExprSubscripts (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:12149:23)\n    at Parser.parseUpdate (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:12129:21)\n    at Parser.parseMaybeUnary (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:12104:23)\n    at Parser.parseMaybeUnaryOrPrivate (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:11901:61)\n    at Parser.parseExprOps (D:\\работа\\обучение\\selfmade\\LearnJS_window\\Source\\node_modules\\@babel\\parser\\lib\\index.js:11908:23)");
 
 /***/ }),
 

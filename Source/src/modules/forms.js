@@ -19,6 +19,12 @@ const forms = () => {
       return await res.text();
     };
 
+    const clearInputs = () => {
+        inputs.forEach(item => {
+            item.value = ''
+        })
+    };
+
 
     form.forEach(item => {
        item.addEventListener('submit', (e) => {
@@ -31,11 +37,25 @@ const forms = () => {
 
            const formData = new FormData(item);
 
+           postData('src/assets/server.php', formData)
+               .then(res => {
+                   console.log(res);
 
+                   statusMessage.textContent = message.success
+
+               })
+               .catch(() => statusMessage.textContent = message.failure)
+                   .finally(() => {
+                   clearInputs();
+                   setTimeout(()=> {
+                       statusMessage.remove();
+                   }, 5000);
+
+           });
        });
-    });
+       });
 
-};
+    };
 
 
 export  default forms;
